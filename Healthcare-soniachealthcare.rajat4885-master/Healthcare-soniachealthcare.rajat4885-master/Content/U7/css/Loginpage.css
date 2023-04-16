@@ -1,0 +1,97 @@
+﻿.loginForm {
+    height: 100%;
+    margin: auto;
+}
+
+    .loginForm .UserNameLabel, .loginForm .PasswordLabel {
+        /*width:85px;*/
+        padding-top: 15px;
+        font-family: aileronlight;
+        color: #004b8d;
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+.login-form-horizontal {
+    margin-left: 1px;
+}
+
+
+.loginForm #loginModel_Username, .loginForm #loginModel_Password {
+    width: 310px;
+    height: 40px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border: 1px solid #c1d2e2;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: 'aileronlight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+
+.loginForm .validation-summary-errors ul li {
+    color: #e31937;
+    list-style-type: none;
+    margin-left: 48px;
+    font-family: aileronregular;
+    padding-top: 5px;
+}
+
+.loginForm h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.loginForm .field-validation-error {
+    /*  margin-left: 85px;*/
+    color: #e31937;
+    line-height: 30px;
+}
+
+.loginForm button {
+    color: #fff;
+    background-color: #004b8d;
+    border: 1px solid #004b8d;
+    /*text-align: left;*/
+    padding: 12px 22px;
+    font-size: 15px;
+    font-family: "aileronbold",Helvetica,Arial,sans-serif;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.logOutForm button {
+    color: #004b8d;
+    background-color: #e6eaf2;
+    border: 1px solid #e6eaf2;
+    text-align: left;
+    padding: 7px 22px;
+    font-size: 15px;
+    font-family: "aileronbold",Helvetica,Arial,sans-serif;
+    margin: 4px 3px;
+}
+
+
+@media (min-width: 991px) {
+    .loginForm {
+        width: 574px;
+    }
+
+        .loginForm button {
+            margin: 30px 0 30px 0px;
+        }
+}
+
+.mobileLogoutButton button {
+    margin: 10px 0px;
+}
